@@ -1,0 +1,22 @@
+{
+    "name": "prestashop/laravel-adapter",
+    "type": "library",
+    "description": "Share prestashop with Laravel",
+    "keywords": ["laravel","prestashop"],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "PrestashopLaravelAdpter\\": "src/"
+        },
+        "files":[
+            "src/functions.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "PrestashopLaravelAdpter\\Providers\\PrestashopLaravelAdpterServiceProvider"
+            ]
+        }
+    }
+}

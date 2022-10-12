@@ -1,0 +1,18 @@
+<?php
+namespace App\Hooks;
+  
+use PrestashopLaravelAdpter\Hooks\Hook as PrestashopHook;
+
+/**
+ * $this->getData() Retrieve prestashop passed data to hook
+ * $this->getRequest() Retrieve the request 
+ * $this->getHookeName() Retrieve the hook name generating this call
+ * 
+ */
+class __hookClassName__ extends PrestashopHook{
+    
+    public function handle()
+    {
+        //your code goes here
+    }
+}
